@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    margin: 20px;
+}
+.controls-canvas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.controls {
+    display: flex;
+    width: 300px;
+    height: 600px;
+    background-color: lightgray;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+.controls button {
+    width: 50%;
+    height: 3rem;
+    font-size: large;
+}
+.container-main {
+    width: 610px;
+    height: 610px;
+    border: 5px solid black;
+}
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+.box {
+    border: 0.5px solid black;
+    
+}
+
