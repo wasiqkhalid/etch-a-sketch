@@ -44,7 +44,47 @@
     height: 600px;
 }
 .box {
-    border: 0.5px solid black;
+    border: none;
     
 }
 
+.graydiv {
+    background-color: black;
+    opacity: 10%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 20%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 30%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 40%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 50%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 60%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 70%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 80%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 90%;
+}
+.graydiv {
+    background-color: black;
+    opacity: 100%;
+}

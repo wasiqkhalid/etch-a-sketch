@@ -1,4 +1,5 @@
 var lastSize = 0;
+var scaleIncriment = 255;
 // Create 16*16 grid
 const cdiv = document.querySelector('.canvas');
 for(i = 0; i < 256; i++){
@@ -31,7 +32,7 @@ function createGrid(squares) {
         div.style.height = dim + 'px';
         cdiv.appendChild(div);
     }
-    fillbox();  
+    
 }
 
 function removeNodes(parent) {
@@ -44,6 +45,7 @@ function fillbox (){
     const box = document.querySelectorAll('.box');
 
     box.forEach(div => {div.addEventListener('mouseover', () =>{
+        div.style.opacity = 1;
         div.style.backgroundColor = 'black';
     })})
 
@@ -54,8 +56,10 @@ function clearBoxes() {
 }
 
 function rgb() {
+
     const box = document.querySelectorAll('.box');
     box.forEach(div => {div.addEventListener('mouseover', () =>{
+        div.style.opacity = 1;
         var r = Math.floor(Math.random() * (255 - 0 + 1) + 0);
         var g = Math.floor(Math.random() * (255 - 0 + 1) + 0);
         var b = Math.floor(Math.random() * (255 - 0 + 1) + 0);
@@ -67,7 +71,8 @@ function rgb() {
 
 function gray() {
     const box = document.querySelectorAll('.box');
-    box.forEach(div => {div.addEventListener('mouseover', () =>{
+    box.forEach(div => { div.addEventListener('mouseover', () => {
         div.style.backgroundColor = 'darkgray';
-    })})
+    })});
 }
+
