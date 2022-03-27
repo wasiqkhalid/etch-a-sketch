@@ -9,3 +9,5 @@ Features:
 - Color by hovering mouse over the canvas
 
 DOM manipulation and event handlers were mainly used to create this project. 
+
+https://wasiqkhalid.github.io/etch-a-sketch/
